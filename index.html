@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tính điểm ĐH khối D</h1>
+    <p>Môn Toán
+        <input type="number" id="toan">
+    </p>
+    <p>Môn Văn
+        <input type="number" id="van">
+    </p>
+    <p>Môn Anh
+        <input type="number" id="anh">
+    </p>
+    <p>Khu vực
+        <select id="kv">
+            <option id="kv1" value="0.75">KV1</option>
+            <option id="kv2"value="0.5">KV2</option>
+            <option id="kv2nt"value="0.25">KV2-NT</option>
+            <option id="kv3"value="0">KV3</option>
+        </select>
+    </p>
+    <br>
+    <button onclick="diem()">Tính điểm</button>
+    <p id="tongdiem"></p>
+    <script src="index.js"></script>
+</body>
+</html>
